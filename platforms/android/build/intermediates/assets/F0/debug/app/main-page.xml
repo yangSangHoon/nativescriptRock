@@ -10,7 +10,7 @@ https://docs.nativescript.org/ui/components.
         </ActionBar>
     </Page.actionBar>
 
-    <StackLayout class="p-20">
+    <AbsoluteLayout>
         <Image src="" width="35%" id="user1" style="position:absolute; left:50%; top:10%;"/>
         <Image src="" width="35%" id="user2" style="position:absolute; left:50%; bottom:10%;"/>
        <!-- <Label text="Tap the button" class="h1 text-center"/>

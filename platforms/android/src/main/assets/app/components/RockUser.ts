@@ -1,4 +1,5 @@
 import buttonModule = require("ui/button");
+import {setSelected, getSelected} from './RockModel';
 
 export default class RockUser {
 
@@ -7,6 +8,7 @@ export default class RockUser {
     private imgUrls: Array<string> = ['~/images/scssors.png', '~/images/rock.png', '~/images/paper.png'];
     private timer;
     private imgNum: number = 0;
+    private isWinner: number = -1;
 
     constructor(page, id) {
         this.user = page.getViewById(id);
@@ -17,10 +19,28 @@ export default class RockUser {
     }
 
     eventsetting() {
-        console.log(this.user);
         this.user.on(buttonModule.Button.tapEvent, () => {
             clearInterval(this.timer);
+            this.select();
         })
+    }
+
+    select() {
+        const selectedNum = getSelected();
+        let num: number;
+        
+        if( this.isWinner > -1 && selectedNum > -1 ){
+            num = (selectedNum + (this.isWinner === 1 ? 1 : 2))%3;
+        } else {
+            num = Math.floor(Math.random() * this.imgUrls.length);
+        }
+        
+        this.user.src = this.imgUrls[num];
+        setSelected(num);
+    }
+
+    setWinner(isWinner) {
+        this.isWinner = isWinner;
     }
 
     startRolling() {
@@ -35,5 +55,8 @@ export default class RockUser {
         }, 100);
     }
 
-
+    reset() {
+       clearInterval(this.timer);
+       this.startRolling();
+    }
 }
