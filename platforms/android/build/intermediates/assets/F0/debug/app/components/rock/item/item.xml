@@ -1,0 +1,2 @@
+<!--<Button style="background-image:~/images/rockPager.gif; width:400px; height:500px;" tap="buttonTap" id="rockSelector" />-->
+<Button text="1" tap="buttonTap" id="rockSelector" />
