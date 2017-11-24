@@ -10,9 +10,16 @@ https://docs.nativescript.org/ui/components.
         </ActionBar>
     </Page.actionBar>
 
-    <AbsoluteLayout>
-        <Image src="" width="35%" id="user1" style="position:absolute; left:50%; top:10%;"/>
-        <Image src="" width="35%" id="user2" style="position:absolute; left:50%; bottom:10%;"/>
+    <StackLayout>
+        <StackLayout height="40%">
+            <Button id="btn1" width="100%" height="50" style="border:1px solid red"/>
+            <Image src="" width="35%" id="user1"/>
+        </StackLayout>
+        <Image src="~/images/aa.png" width="20%" id="refersh"/>
+        <StackLayout height="40%">
+            <Image src="" width="35%" id="user2" style="margin-top:15%"/>
+            <Button id="btn2" width="100%" height="50" style="border:1px solid red"/>
+        </StackLayout>
        <!-- <Label text="Tap the button" class="h1 text-center"/>
         <Button text="TAP" tap="{{ onTap }}" class="btn btn-primary btn-active"/>
         <Label text="{{ message }}" class="h2 text-center" textWrap="true"/>-->

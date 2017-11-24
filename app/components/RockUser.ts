@@ -26,6 +26,7 @@ export default class RockUser {
     }
 
     select() {
+        this.user.off(buttonModule.Button.tapEvent);
         const selectedNum = getSelected();
         let num: number;
         
@@ -37,6 +38,7 @@ export default class RockUser {
         
         this.user.src = this.imgUrls[num];
         setSelected(num);
+
     }
 
     setWinner(isWinner) {
@@ -58,5 +60,6 @@ export default class RockUser {
     reset() {
        clearInterval(this.timer);
        this.startRolling();
+       this.eventsetting();
     }
 }

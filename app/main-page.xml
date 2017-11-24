@@ -12,13 +12,13 @@ https://docs.nativescript.org/ui/components.
 
     <StackLayout>
         <StackLayout height="40%">
-            <Button id="btn1" width="100%" height="50" style="border:1px solid red"/>
+            <Button id="btn1" width="100%" height="50"/>
             <Image src="" width="35%" id="user1"/>
         </StackLayout>
         <Image src="~/images/aa.png" width="20%" id="refersh"/>
         <StackLayout height="40%">
             <Image src="" width="35%" id="user2" style="margin-top:15%"/>
-            <Button id="btn2" width="100%" height="50" style="border:1px solid red"/>
+            <Button id="btn2" width="100%" height="50"/>
         </StackLayout>
        <!-- <Label text="Tap the button" class="h1 text-center"/>
         <Button text="TAP" tap="{{ onTap }}" class="btn btn-primary btn-active"/>

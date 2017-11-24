@@ -62,7 +62,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		Habn8hBd+4IJyCn6+1aJHVFd2xM=
+		ASTRDgswf1n3f691r2TQSSBYdpU=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		GtzZ23WDlxLm7ofoaaweUruDYzk=
+		x/vUBA3uzZkZPuDcOyfztZXlnF8=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		pTD091PV0O9zqf+DnGooauUejAU=
+		tgvCC2FJsz5QX3QFflCy2GI1irk=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -196,25 +196,73 @@
 		<data>
 		JaufI7D9vitZPmgImXsDTEEFzrg=
 		</data>
+		<key>app/components/RockModel.js</key>
+		<data>
+		MH3Ot1HegwiCd2voDLOniuR+ScQ=
+		</data>
+		<key>app/components/RockModel.ts</key>
+		<data>
+		J/KmEP4IMTcPiTkuclMk62PU37M=
+		</data>
+		<key>app/components/RockUser.js</key>
+		<data>
+		hnKNVImtuv4zMKLkYtpJcE5o7YY=
+		</data>
+		<key>app/components/RockUser.ts</key>
+		<data>
+		z+g6V2uW8QaN+Qi1ICnworjiljQ=
+		</data>
+		<key>app/components/rock/item/item.js</key>
+		<data>
+		DUOHWYJhgOVYLsYQ9oDWNW+eoIA=
+		</data>
+		<key>app/components/rock/item/item.ts</key>
+		<data>
+		cIz8Km1XebBv0sgiSJomdKrZsxU=
+		</data>
+		<key>app/components/rock/item/item.xml</key>
+		<data>
+		3u7mjuRATlGN38a0fxKOVotVq2U=
+		</data>
+		<key>app/components/rock/rock.xml</key>
+		<data>
+		acJBNxq9aBKt8AIeq0iBPx0sszo=
+		</data>
+		<key>app/images/aa.png</key>
+		<data>
+		yllfqjiMwWUoQz1Jt+DZXDAt+VQ=
+		</data>
+		<key>app/images/paper.png</key>
+		<data>
+		3I0fGcuC9HqwoWm9cgHgPeniAnI=
+		</data>
+		<key>app/images/rock.png</key>
+		<data>
+		B8Hnur+1HfmFLONbC/6f5kehF24=
+		</data>
+		<key>app/images/scssors.png</key>
+		<data>
+		vW4KJxSpxcMiYD1GTNSG2YqhQr8=
+		</data>
 		<key>app/main-page.js</key>
 		<data>
-		9Flfh8wNZHXXEYMleGqd6KSXSuk=
+		IafKhknWM+vXdKVRA1tL53xVRJY=
 		</data>
 		<key>app/main-page.ts</key>
 		<data>
-		xAVTw1yBvEvtmiH/cgDg+FSVZ60=
+		S0FG15scHeQEZHm7CUPWBrKU+ts=
 		</data>
 		<key>app/main-page.xml</key>
 		<data>
-		sL7gAEyCJKa78qRrO9W7m3+tEf8=
+		rAX1dMWeRvBL/TJ20+vOgLuWKGI=
 		</data>
 		<key>app/main-view-model.js</key>
 		<data>
-		vvd0HOSpyyZ2qCG5xn9mBFDBfKw=
+		PiobIcXG8UEdGrHWp7s/ZnlPf38=
 		</data>
 		<key>app/main-view-model.ts</key>
 		<data>
-		qoamjIp/h4hr8zfByu7Lb7ycXCU=
+		E6+kLtMEKa4gaMXmXh8MTYVYqIA=
 		</data>
 		<key>app/package.json</key>
 		<data>
@@ -1814,11 +1862,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Habn8hBd+4IJyCn6+1aJHVFd2xM=
+			ASTRDgswf1n3f691r2TQSSBYdpU=
 			</data>
 			<key>hash2</key>
 			<data>
-			RYIkukUHVO5T/QW54IiQzBQL7p+zAflK4jIQ7Mi8eKo=
+			Szcuz7jIJkiB09CIrDJSBXSDLDBJawYO6Oj0rOkNDOQ=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -2067,11 +2115,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GtzZ23WDlxLm7ofoaaweUruDYzk=
+			x/vUBA3uzZkZPuDcOyfztZXlnF8=
 			</data>
 			<key>hash2</key>
 			<data>
-			YA/xsE9daziZgErKI5DxBbUGNauAopJc7NiMkmm8OgE=
+			z5T7k9AMb13rvEIZdmKiRVMDYleXb1XpP5x0is6Yrek=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -2089,11 +2137,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pTD091PV0O9zqf+DnGooauUejAU=
+			tgvCC2FJsz5QX3QFflCy2GI1irk=
 			</data>
 			<key>hash2</key>
 			<data>
-			IXHqcOWX5aYkPAEDykcfaiL0/CuvqvtbHOxeBKMWlH4=
+			VmC6ebPbep6KRL1BQuj4PCRXNlpvJ3ncKiOI15w6FOA=
 			</data>
 		</dict>
 		<key>app/README.md</key>
@@ -2162,59 +2210,191 @@
 			xhFKyq/0eVZn/ZAOyKsz8i9OKLSFSdDN/mmpxcwpfvM=
 			</data>
 		</dict>
+		<key>app/components/RockModel.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MH3Ot1HegwiCd2voDLOniuR+ScQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			CZ0HIUOxiW1pucjap1aPd9Fz+kREgXp2b305pyU9zao=
+			</data>
+		</dict>
+		<key>app/components/RockModel.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			J/KmEP4IMTcPiTkuclMk62PU37M=
+			</data>
+			<key>hash2</key>
+			<data>
+			jnQCRFutqLnHq7Fztz1jyV1ah0bsF3W9NEpoKrCRDCE=
+			</data>
+		</dict>
+		<key>app/components/RockUser.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hnKNVImtuv4zMKLkYtpJcE5o7YY=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZQ/YduxI0wXQMYNIGvMzQq2JR1N2yg/wx3AP4e8bJ/I=
+			</data>
+		</dict>
+		<key>app/components/RockUser.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			z+g6V2uW8QaN+Qi1ICnworjiljQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			rAOZbSffHjg0BLnL0VwxFiQgLoARo4mqsUv2kxa2nzk=
+			</data>
+		</dict>
+		<key>app/components/rock/item/item.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DUOHWYJhgOVYLsYQ9oDWNW+eoIA=
+			</data>
+			<key>hash2</key>
+			<data>
+			7zMM5joTar4tJKLInok6I0NxoiH4CNvGNCfdIdXy6jE=
+			</data>
+		</dict>
+		<key>app/components/rock/item/item.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cIz8Km1XebBv0sgiSJomdKrZsxU=
+			</data>
+			<key>hash2</key>
+			<data>
+			ml8LvMw76pLjsDlutVIWG49NsYOsAxdl3Xmn1cb2yfY=
+			</data>
+		</dict>
+		<key>app/components/rock/item/item.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3u7mjuRATlGN38a0fxKOVotVq2U=
+			</data>
+			<key>hash2</key>
+			<data>
+			I42c0rQmrSeZHzDVwj237Icy1/0sZbzeH/BfxenCKp4=
+			</data>
+		</dict>
+		<key>app/components/rock/rock.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			acJBNxq9aBKt8AIeq0iBPx0sszo=
+			</data>
+			<key>hash2</key>
+			<data>
+			LSt7fe33u3DQ9YBfIchtr5oKJUl0KXn4YnPc7zC4LQk=
+			</data>
+		</dict>
+		<key>app/images/aa.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yllfqjiMwWUoQz1Jt+DZXDAt+VQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			ED5t0BQFB3PhEa3qc+uUGK7PA0LcoJAfVrLpGTu6Icw=
+			</data>
+		</dict>
+		<key>app/images/paper.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3I0fGcuC9HqwoWm9cgHgPeniAnI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ld82urgss6UYoYtQZ1zAbiLo6+9vvvWuYsEmRYc63V0=
+			</data>
+		</dict>
+		<key>app/images/rock.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B8Hnur+1HfmFLONbC/6f5kehF24=
+			</data>
+			<key>hash2</key>
+			<data>
+			QXjswqX0kgGZ1Sw+hm6zudS+hI+x96mZeaWzIKsdMOI=
+			</data>
+		</dict>
+		<key>app/images/scssors.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vW4KJxSpxcMiYD1GTNSG2YqhQr8=
+			</data>
+			<key>hash2</key>
+			<data>
+			56Lp0dqNvbvWknWB91G4fJi651zqTAFOf4F/ubkh8gw=
+			</data>
+		</dict>
 		<key>app/main-page.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9Flfh8wNZHXXEYMleGqd6KSXSuk=
+			IafKhknWM+vXdKVRA1tL53xVRJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			3IiKmVGy33Jvidrl5XLqbDKDsq6wAb0B/AL74/dHfx4=
+			kQOYMesTta7whz0E4wB1N5DI8bHXdbAkJrzYDcc9XYk=
 			</data>
 		</dict>
 		<key>app/main-page.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xAVTw1yBvEvtmiH/cgDg+FSVZ60=
+			S0FG15scHeQEZHm7CUPWBrKU+ts=
 			</data>
 			<key>hash2</key>
 			<data>
-			NhZ2TgMGumoUkpdaAG8YjID/GyqACY53sJGdLELlsP8=
+			Dryblj4tH941mNfxH62/w1q3EvkQeUQH74ojFGDvCcY=
 			</data>
 		</dict>
 		<key>app/main-page.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sL7gAEyCJKa78qRrO9W7m3+tEf8=
+			rAX1dMWeRvBL/TJ20+vOgLuWKGI=
 			</data>
 			<key>hash2</key>
 			<data>
-			cwtTqNRsBcZ/ytF83VRg4866OWwnYjwxQI9d0fi6b/w=
+			P4u1mPppYk6XeF3G7IWUxuGu9v0ZuFEAA05Hn6wjX/4=
 			</data>
 		</dict>
 		<key>app/main-view-model.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vvd0HOSpyyZ2qCG5xn9mBFDBfKw=
+			PiobIcXG8UEdGrHWp7s/ZnlPf38=
 			</data>
 			<key>hash2</key>
 			<data>
-			JQiLBsad4Qu22LL968QlRLbfFT+A2cbgQbNBx6wN5o8=
+			zJVsD0nAy8beGAubpUl+eFqB6LR7utv8HfDHO8lLHuI=
 			</data>
 		</dict>
 		<key>app/main-view-model.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qoamjIp/h4hr8zfByu7Lb7ycXCU=
+			E6+kLtMEKa4gaMXmXh8MTYVYqIA=
 			</data>
 			<key>hash2</key>
 			<data>
-			w3gxYd9X5sPTK5J5pEEiSwvqhBcJQhkqSLMGChdWRmg=
+			dkHWy/Om2O5bTIPYu0YufWxkk1PpyUTzyuYpPfBwKoc=
 			</data>
 		</dict>
 		<key>app/package.json</key>

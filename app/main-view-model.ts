@@ -15,8 +15,8 @@ export class HelloWorldModel extends Observable {
         super();
         this.user1 = new RockUser(page, "user1");
         this.user2 = new RockUser(page, "user2");
-        this.btn1 = new RockUser(page, "btn1");
-        this.btn2 = new RockUser(page, "btn2");
+        this.btn1 = page.getViewById('btn1');
+        this.btn2 = page.getViewById('btn2');
         this.refersh = page.getViewById('refersh');
         this.eventSetting();
     }

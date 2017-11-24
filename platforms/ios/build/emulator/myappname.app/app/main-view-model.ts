@@ -1,39 +1,41 @@
 import {Observable} from 'data/observable';
+import RockUser from './components/RockUser';
+import buttonModule = require("ui/button");
+import {setSelected} from './components/RockModel';
 
 export class HelloWorldModel extends Observable {
 
-    private _counter: number;
-    private _message: string;
+    private user1;
+    private user2;
+    private btn1;
+    private btn2;
+    private refersh;
 
-    constructor() {
+    constructor(page) {
         super();
-
-        // Initialize default values.
-        this._counter = 42;
-        this.updateMessage();
+        this.user1 = new RockUser(page, "user1");
+        this.user2 = new RockUser(page, "user2");
+        this.btn1 = new RockUser(page, "btn1");
+        this.btn2 = new RockUser(page, "btn2");
+        this.refersh = page.getViewById('refersh');
+        this.eventSetting();
     }
 
-    get message(): string {
-        return this._message;
-    }
-    
-    set message(value: string) {
-        if (this._message !== value) {
-            this._message = value;
-            this.notifyPropertyChange('message', value)
-        }
-    }
+    eventSetting() {
+    	this.refersh.on(buttonModule.Button.tapEvent, () => {
+            this.user1.reset();
+            this.user2.reset();
+            setSelected(-1);
+        })
 
-    public onTap() {
-        this._counter--;
-        this.updateMessage();
-    }
-
-    private updateMessage() {
-        if (this._counter <= 0) {
-            this.message = 'Hoorraaay! You unlocked the NativeScript clicker achievement!';
-        } else {
-            this.message = `${this._counter} taps left`;
-        }
+        /*this.btn1.on(buttonModule.Button.tapEvent, () => {
+            this.user1.setWinner(1);
+            this.user2.setWinner(0);
+        })
+        this.btn2.on(buttonModule.Button.tapEvent, () => {
+        	this.user1.setWinner(0);
+            this.user2.setWinner(1);
+        })*/
+		
     }
 }
