@@ -1,5 +1,0 @@
-<Label text="rock" />
-<StackLayout class="p-20" xmlns:item="components/rock/item">
-    <item:item/>
-    <item:item/>
-</StackLayout>
