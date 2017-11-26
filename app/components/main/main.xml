@@ -1,0 +1,8 @@
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo2" class="page">
+    <StackLayout>
+        <AbsoluteLayout>
+            <Button id="btnRock" width="100%" text="가위바위보" height="50" class="listButton"/>
+        </AbsoluteLayout>
+    </StackLayout>
+</Page>
